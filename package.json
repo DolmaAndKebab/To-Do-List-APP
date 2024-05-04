@@ -1,0 +1,41 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "A simple to do list app",
+  "main": "./Index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DolmaAndKebab/To-Do-List-APP.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Html",
+    "CSS",
+    "Solid",
+    "HTML",
+    "CSS",
+    "JS",
+    "Solid",
+    "Html",
+    "Solid",
+    "CSS",
+    "Solid",
+    "JS",
+    "JS"
+  ],
+  "author": "DolmaAndkebab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DolmaAndKebab/To-Do-List-APP/issues"
+  },
+  "homepage": "https://github.com/DolmaAndKebab/To-Do-List-APP#readme",
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

@@ -1,0 +1,29 @@
+# Unrequired Files & Directories for the repository
+node_modules
+./node_modules/
+./node_modules/*
+./node_modules/*/*
+./node_modules/**
+node_modules/*/*
+node_modules/**
+node_modules/
+
+# .env files (MUST BE IGNORED)
+.env
+.env.api
+.env.token
+.env**
+.env*
+.env.**
+.env.*
+.env/*
+.env/**
+.env/*/*
+./.env
+./.env*
+./.env**
+
+# hidden files (MUST BE IGNORED)
+.
+.*
+.**
