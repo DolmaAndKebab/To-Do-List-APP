@@ -32,6 +32,7 @@ button {
 input {
     margin-left: 0.5rem !important;
     margin-right: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
     width: 25rem !important;
     text-align: center;
 }
