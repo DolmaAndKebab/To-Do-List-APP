@@ -82,20 +82,18 @@ document.addEventListener("DOMContentLoaded", () => {
         // Appending Item Container
         document.getElementById("List").appendChild(Item_Container);
 
+        // Resetting Input
+        document.getElementById("Input").value = "";
+
+        // Handling Item Remove button
+        Item_Remove_btn.addEventListener("click", () => {
+          Item_Container.remove();  
+        })
       })
     }
   }
 
-  function HandleRemoveBtn(Element) {
-    if (Element instanceof HTMLElement) {
-      Element.addEventListener("click", () => {
-
-      })
-    }    
-  }
-  
   HandleCreateBtn(document.getElementById("Create"));
-  HandleRemoveBtn(document.getElementById("Remove"));
    
 
 });
